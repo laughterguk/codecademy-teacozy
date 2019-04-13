@@ -18,6 +18,8 @@ header {
   display:flex;
   align-items:center;
   justify-content:space-between;
+  z-index:4;
+  background-color:#000;
 }
 
 header img {
@@ -66,4 +68,41 @@ nav a {
 
 .mission .overlay h4 {
   margin-top:-5px;
+}
+
+.store {
+  position:relative;
+  top:70px;
+  margin:0 auto;
+  width:1000px;
+  text-align:center;
+}
+
+.store h2 {
+  margin-top:85px;
+}
+
+.store .items {
+  width:auto;
+  display:flex;
+  justify-content:space-around;
+}
+
+.store .items .item {
+  text-align:center;
+  width:300px;
+}
+
+.store img {
+  height:200px;
+}
+
+.store .item2 {
+  text-align:center;
+  width:300px;
+  margin-left:-325px;
+}
+
+.locations {
+
 }
