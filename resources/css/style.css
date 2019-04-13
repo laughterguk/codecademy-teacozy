@@ -1,6 +1,7 @@
 body {
   background-color:#000;
-  font-sizez:22px;
+  font-size:22px;
+  font-family:Helvetica;
   color:seashell;
   opacity:0.9;
   text-align:center;
@@ -40,4 +41,29 @@ nav a {
   background-color:black;
   opacity:0.9;
   text-decoration:underline;
+}
+
+.mission {
+  display:flex;
+  position:relative;
+  top:70px;
+  margin:0 auto;
+  width:1200px;
+  height:700px;
+  background-image:url('../images/img-mission-background.jpg');
+}
+
+.mission .overlay {
+  align-self:center;
+  background-color:#000;
+  width:100%;
+  height:105px;
+}
+
+.mission .overlay h2 {
+  margin-top:15px;
+}
+
+.mission .overlay h4 {
+  margin-top:-5px;
 }
