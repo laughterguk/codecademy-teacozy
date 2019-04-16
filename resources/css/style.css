@@ -81,6 +81,13 @@ nav a {
 .store h2 {
   margin-top:85px;
 }
+.store .item h4 {
+  margin-top:10px;
+}
+
+.store .item2 h4 {
+  margin-top:10px;
+}
 
 .store .items {
   width:auto;
@@ -103,6 +110,59 @@ nav a {
   margin-left:-325px;
 }
 
-.locations {
 
+.locations {
+  position:relative;
+  top:120px;
+  margin:0 auto;
+  width:1200px;
+  height:500px;
+  background-image:url('../images/img-locations-background.jpg');
+  background-size:cover;
+}
+
+.locations .title {
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  padding-top:65px;
+}
+
+.locations .spots {
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+
+.locations .spot {
+  width:300px;
+  background-color:#000;
+  opacity:1;
+  margin:0px 20px;
+}
+
+.locations .spot p {
+  padding:12px 0px;
+}
+
+
+.contact {
+  position:relative;
+  top:110px;
+  height:200px;
+}
+
+.contact h2 {
+  padding-bottom:15px;
+}
+
+footer {
+  position:relative;
+  top:100px;
+  text-align:left;
+  margin-left:20px;
+  padding-bottom:1px;
 }
